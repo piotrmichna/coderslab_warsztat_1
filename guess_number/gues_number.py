@@ -2,6 +2,11 @@ from random import randint
 
 
 def get_user_number():
+    """the function gets the player's answers
+    and checks for errors
+
+    :return: integer number from 1..100
+    """
     while True:
         try:
             result = int(input('Guess the number: '))
@@ -16,6 +21,8 @@ def get_user_number():
 
 
 def guess_the_number():
+    """Main function Guess The Number aplication"""
+
     secret_number = randint(1, 100)
 
     while True:
