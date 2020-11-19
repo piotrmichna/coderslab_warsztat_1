@@ -5,12 +5,13 @@ def get_user_number():
     while True:
         try:
             result = int(input('Guess the number: '))
-            if result<1 or result>100:
-                print ('Number is from 1 to 100.')
+            if result < 1 or result > 100:
+                print('Number is from 1 to 100.')
             else:
                 break
         except ValueError:
             print("I's not number")
+
     return result
 
 
