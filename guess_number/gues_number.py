@@ -4,7 +4,7 @@ from random import randint
 def get_user_number():
     while True:
         try:
-            result=int(input('Guess the number: '))
+            result = int(input('Guess the number: '))
             break
         except ValueError:
             print("I's not number")
