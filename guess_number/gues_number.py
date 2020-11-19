@@ -14,11 +14,10 @@ def guess_the_number():
             print('Great, you are a winner')
             break
         else:
-            if secret_number>usr_number:
+            if secret_number > usr_number:
                 print('To small..')
             else:
                 print('To big..')
-
 
 
 if __name__ == '__main__':
