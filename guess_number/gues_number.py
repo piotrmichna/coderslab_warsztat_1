@@ -2,7 +2,12 @@ from random import randint
 
 
 def get_user_number():
-    return int(input('Guess the number: '))
+    while True:
+        try:
+            result=int(input('Guess the number: '))
+            break
+        except ValueError:
+            print("I's not number")
 
 
 def guess_the_number():
