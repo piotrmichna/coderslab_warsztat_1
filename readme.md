@@ -1,3 +1,3 @@
 __CodersLab__
 
-_Warsztat 1 Piotr Michna_
+_warsztat 1, zadanie 1, zgadywanie liczb_
